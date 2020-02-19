@@ -1,5 +1,7 @@
 .wrapper {
     height: 100vh;
-    width: 100vw;
-    background: green;
+    width: 93.75%;
+    background: url("assets/images/Group\ 1.png");
+    background-size: cover;
+    margin-left: 6.25%;
 }
