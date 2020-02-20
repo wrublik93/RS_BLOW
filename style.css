@@ -62,3 +62,22 @@
     color: #ffffff;
     font-family: "Montserrat";
 }
+
+.sidebar {
+    width: 6.25%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar p {
+    transform: rotate(-90deg);
+    width: 500px;
+    margin-left: -200px;
+    font-family: "Montserrat";
+    margin-top: 51px;
+}
