@@ -35,10 +35,30 @@
     display: flex;
     width: 100px;
     height: 41px;
-    border-radius: 20px;
-    background-color: #000000;
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     align-items: center;
     justify-content: center;
+    font-family: "Montserrat";
+}
+
+.navbar ul li a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.explore {
+    margin: 260px auto 0;
+    width: fit-content;
+    box-shadow: 0px 85px 62px 29px rgba(0, 0, 0, 0.86);
+}
+
+.explore button {
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Montserrat";
 }
